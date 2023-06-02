@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+	  "target": "ES2019",
+	  "module": "commonjs",
+	  "lib": ["ES2019", "DOM"],
+	  "strict": true,
+	  "rootDir": "./src",
+	  "outDir": "./dist",
+	  "esModuleInterop": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "isolatedModules": true,
+	  "moduleResolution": "node",
+	  "resolveJsonModule": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*.ts"]
+  }
+  
